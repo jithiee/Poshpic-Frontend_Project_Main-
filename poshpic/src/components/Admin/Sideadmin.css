@@ -1,0 +1,39 @@
+
+
+
+.sidebar {
+  height: 100%;
+  position: fixed;
+  background: linear-gradient(to bottom, #3498db, #2c3e50);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+.sidebar a {
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff; 
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #000000;
+  color: yellow;
+  
+}
+
+.content {
+
+
+  background-color: white;
+}
+.header {
+  background-color: #3498db; 
+  color: #ffffff; 
+  padding: 15px;
+  text-align: center;
+}
+

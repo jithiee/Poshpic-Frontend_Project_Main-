@@ -1,0 +1,20 @@
+
+.filterhomepage {
+    background-color: 'AppWorkspace'; 
+    font-size: 15px;
+    font-family: monospace;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.filterhomepage .dropdown-item {
+    transition: background-color 0.3s;
+}
+
+.filterhomepage .dropdown-item:hover {
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); 
+}
+
+.filterhomepage .dropdown-item + .dropdown-item {
+    margin-top: 10px;
+}

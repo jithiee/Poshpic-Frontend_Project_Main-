@@ -1,0 +1,29 @@
+
+
+.main {
+    background-color: #1A3048;
+    height: auto;
+    margin: 50px;
+}
+
+.reging{
+  
+    color: white;
+    border-radius: 50px;
+    
+}
+.regimg{
+    width: 60%;
+    height: auto;
+    margin: 20%;
+    border-radius: 0 60px;
+    /* animation: rotate 10s infinite; */
+    
+    
+
+   
+}
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

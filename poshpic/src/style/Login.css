@@ -1,0 +1,91 @@
+.mainlogin {
+    background-color: #dde7ff;
+    min-height: 40em;
+    padding: 20px;
+    margin-bottom: 50px;
+    animation: fadeIn 1s ease-in-out; 
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  } 
+  .mainbody {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .loging {
+    max-width: 30em;    
+    width: 100%;
+    background-color: white;
+    border-radius: 0px 60px;
+    overflow: hidden;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logtxt {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .loginforms {
+    text-align: center;
+    padding: 20px;
+  
+   .loginput {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+   
+    }
+    .loginput:hover{
+        border-color: #94b1f5;  
+    }
+
+
+
+
+  }
+  
+  .imglogins {
+    /* height: 15.2em; */
+    /* background-image: url('https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg?w=740&t=st=1704888012~exp=1704888612~hmac=772c5e300456de928b1e85b8f1f3cec4d478f7ad4075a772b5783068f5d3eceb'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 0 0 20px;
+    object-fit: fill ;
+  }
+
+  .logreg{
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; 
+  }
+  .loginput {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out; 
+  }
+  .loginput:hover {
+    border-color: #94b1f5;
+  }
+  .logreg:hover {
+    color: #ff7e5f;
+    
+  }
+.forgotpass{
+  color: #4c75d6;
+}
+
+  .forgotpass:hover{
+      color:blue;
+      cursor: pointer;
+  }

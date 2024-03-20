@@ -1,0 +1,191 @@
+
+  @media screen and (max-width: 600px) {
+    .attractive-button {
+      
+      font-size: 14px;
+    }
+  }
+  .homebodycarosal {
+    max-width: 100%;
+    max-height: 30em;
+    margin-bottom: 50px;
+
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+   padding: 3%;
+ 
+    
+    
+  
+    
+    @media (max-width: 768px) {
+      max-height: 20em; 
+    }
+  
+    @media (max-width: 576px) {
+      max-height: 15em; 
+    }
+  }
+  
+.homeimagebodymain {
+  width: 100%;
+  height: 40em;
+  margin-bottom: 8%;
+  margin-top: 8%;
+  display: flex;
+
+
+
+
+}
+
+
+
+@keyframes slideBackground {
+  0% {
+      background-position: 0% 0%;
+  }
+  100% {
+      background-position: 100% 0%;
+  }
+}
+
+.homeimagebodymain2 {
+  max-width: 100%;
+  height: 40em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .homeimagebodymain {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .homeimagebodymain1,
+  .homeimagebodymain2 {
+      width: 100%;
+      height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .homeimagebodymain {
+      margin-bottom: 4%;
+      margin-top: 4%;
+  }
+
+  .homeimagebodymain1,
+  .homeimagebodymain2 {
+      width: 100%;
+      height: auto;
+     
+  }
+}
+.homeimagebodymain2text {
+  font-size: 35px;
+  text-align: start;
+  padding: 9%;
+  font-weight: 100;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  margin-top: 6%;
+  background-image: url(https://img.freepik.com/free-photo/handsome-man-good-mood-posing-with-camera-orange-background_197531-26927.jpg?w=996&t=st=1707630133~exp=1707630733~hmac=9258cd0796a005673c8e250b9b12b2b2d166c3cbebf8946090ca0c9595ad0f29);
+  color:white;
+  background-size: cover;
+  object-fit: cover;
+  margin: 5%;
+  
+  
+}
+@media only screen and (max-width: 1200px) {
+  .homeimagebodymain2text {
+    font-size: 28px; 
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .homeimagebodymain2text {
+    font-size: 24px; 
+    padding: 4%; 
+    margin-top: 4%; 
+  }
+}/* General styles for the container */
+.homeimagebgtxtmain1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+/* Styles for each image container */
+.homeimagebgtxtmain2,
+.homeimagebgtxtmain3 {
+  position: relative;
+  width: 100%; /* Full width on small screens */
+  margin-bottom: 2%;
+
+}
+
+/* Common styles for image containers */
+.homeimagebgtxtmain2,
+.homeimagebgtxtmain3 {
+  height: 20em;
+  border-radius: 10px;
+  background-size: cover;
+  object-fit: cover;
+  margin: 2%;
+  overflow: hidden; /* Hide overflow for proper overlay */
+  transition: 0.3s; /* Smooth transition for hover effect */
+}
+
+
+.homeimagebgtxtmain2 {
+  background-image: url(https://img.freepik.com/free-photo/side-view-photographer-taking-wedding-photos_23-2150264489.jpg?w=996&t=st=1706028563~exp=1706029163~hmac=03770a9b3106f276d90c42119c1ac9985e5e508478d68915828752d6d1982393);
+}
+
+.homeimagebgtxtmain3 {
+  background-image: url(https://img.freepik.com/free-photo/top-view-tasty-cooked-fish-with-fresh-vegetables-seasonings-dark-table-color-food-meat-dish-photo_140725-160932.jpg?t=st=1706032024~exp=1706032624~hmac=7b0798b503a16e3e78ef9f4917b25e07d96b9e1c2e544e0c3d4f39b5abc78b4b);
+}
+
+
+/* Dark overlay for both image containers */
+.homeimagebgtxtmain2::before,
+.homeimagebgtxtmain3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  transition: 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect on image containers */
+.homeimagebgtxtmain2:hover::before,
+.homeimagebgtxtmain3:hover::before {
+  opacity: 0.9; /* Increase opacity on hover */
+  width: 80px;
+  border: 2px solid black;
+ 
+ 
+  
+}
+
+/* Responsive adjustments for larger screens */
+@media (min-width: 768px) {
+  .homeimagebgtxtmain2,
+  .homeimagebgtxtmain3 {
+    width: 48%; /* Two columns on larger screens */
+    margin-bottom: 1%; /* Smaller margin between columns */
+  }
+}

@@ -1,0 +1,24 @@
+.message-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .message-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .sender-name {
+    font-weight: bold;
+  }
+  
+  .timestamp {
+    color: #888;
+  }
+  
+  .message-content {
+    word-wrap: break-word;
+  }
+  

@@ -1,0 +1,123 @@
+.mainhomediv {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+  .sunhomeleftcontain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+  }
+
+  .sub2homecontain {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    justify-content: end;
+  }
+
+
+
+  @media (min-width: 768px) {
+    .sunhomeleftcontain {
+      width: 30%;
+    }
+ 
+  }
+  .usernavbtn{
+    border-radius: 100%;
+    height: 2em;
+    
+  }
+
+  .spinning-box {
+    width: 150px; /* Set the width as needed */
+    height: 150px; /* Set the height as needed */
+    margin: 80px; /* Set margin as needed */
+  /* Set background color as needed */
+    transform-style: preserve-3d;
+    animation: spin 5s linear infinite; /* Adjust duration as needed */
+    background-image: url(https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg);
+    background-size: cover;
+    object-fit: cover;
+
+
+  }
+
+  @keyframes spin {
+    0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
+  }
+  .spinning-box1 {
+    width: 100px;
+    height: 50px; 
+    margin-top: 3%;
+    background-color: #ff0000; 
+    transform-style: preserve-3d;
+    animation: spin 5s linear infinite; 
+    
+    
+  }
+
+  @keyframes spin {
+    0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
+  }
+
+
+  .responsive-text {
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 0.6em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100%; /* Ensures the text doesn't overflow its container */
+    word-wrap: break-word; /* Handles long words that may cause overflow */
+    background-image: url(https://img.freepik.com/free-photo/overhead-view-painted-camera-against-pink-background_23-2148084285.jpg?w=996&t=st=1705991053~exp=1705991653~hmac=c8b314a826dde2a732265c121a0403455d5328d967dec4e0dd5d9b8e64516fdb);
+  
+    padding: 8%;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .responsive-text {
+      font-size: 0.4em; /* Adjust font size for smaller screens */
+    }
+  }
+
+  .imagehomemainbak{
+
+
+
+  
+    background-image: url(https://img.freepik.com/free-photo/splashing-colorful-powder-frame-white-background-ai-generative_123827-23709.jpg);
+  }
+
+
+
+  .cardshome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cardsplace {
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .sub2homecontain {
+      width: 70%;
+    }
+  
+    .cardsplace {
+      width: 30%;
+    }
+  }
