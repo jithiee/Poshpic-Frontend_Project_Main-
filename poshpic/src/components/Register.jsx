@@ -80,7 +80,8 @@ const Register = () => {
             <div className="col-md-6 ">
               <img
                 className="regimg"
-                src="https://img.freepik.com/free-vector/empty-wall-frame-decoration-background_1017-17386.jpg?w=740&t=st=1704275335~exp=1704275935~hmac=5e6a33d6f2687b53cbd4be36b4d3390c5b8d181f64c2f2c20abc81a8f2fe3d33"
+                // src="https://img.freepik.com/free-vector/empty-wall-frame-decoration-background_1017-17386.jpg?w=740&t=st=1704275335~exp=1704275935~hmac=5e6a33d6f2687b53cbd4be36b4d3390c5b8d181f64c2f2c20abc81a8f2fe3d33"
+                src='https://images.unsplash.com/photo-1499417267106-45cebb7187c9?q=80&w=1919&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                 alt=""
               />
             </div>
@@ -174,7 +175,7 @@ const Register = () => {
               <p className="mt-3">
                 Already have an account{' '}
                 <span
-                  style={{ color: '#F2825B', cursor: 'pointer' }}
+                  style={{ color: 'blue', cursor: 'pointer' }}
                   onClick={() => navigate('/login')}
                 >
                   Login here!
@@ -191,6 +192,7 @@ const Register = () => {
 
         </div>
       </div>
+      
     </div>
   );
 };

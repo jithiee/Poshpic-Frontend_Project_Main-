@@ -73,6 +73,7 @@ const Login = () => {
 
   return (
     <>
+   
       <div className="reset-password-container" style={{ backgroundImage: 'url(your-image-url)', backgroundSize: 'cover' }}>
         <div className="reset-password-form">
           <h2 className="reset-password-heading" style={{ color: 'black', fontFamily: 'monospace', fontWeight: 'bold' }}>LOGIN</h2>
@@ -150,6 +151,7 @@ const Login = () => {
           </Button>
         </Modal.Footer>
       </Modal>
+    
     </>
   );
 };
