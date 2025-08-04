@@ -33,6 +33,8 @@ import AdminDashboarrd from './Page/AdminDashboarrd';
 import Adminphotographer from './Page/Adminphotographer';
 import AdminUserview from './Page/AdminUserview';
 import Editpost from './components/Post/Editpost';
+import './index.css';
+
 
 
 const PrivateRouter = ({ children }) => {
@@ -55,11 +57,11 @@ function App() {
           <Route path='/landingpage' element={<Landingpage/>} />
           <Route path='/imageview' element={<Imageview/>} />
           <Route path='/resetpassword' element={<Resetpassword/>} />
-          <Route path='/otpregister/:email' element={<Otp_register />} />
+          <Route path='/otp-verify/:email' element={<Otp_register />} />
           <Route path='/otpregister' element={<Otp_register />} />
           <Route path="/home" element={<PrivateRouter><Mainhomepage /></PrivateRouter>} />
           <Route path='/fasion' element={ <PrivateRouter>  <Fasion/></PrivateRouter> } />
-          <Route path='/photopgrapheruserprofile' element={ <PrivateRouter> <Userprofilemain/> </PrivateRouter> } />
+          <Route path='/photographeruserprofile' element={ <PrivateRouter> <Userprofilemain/> </PrivateRouter> } />
           <Route path='/edituserprofile' element={<EditUserprofile/>} />
           <Route path='/posts' element={ <PrivateRouter>   <Post/></PrivateRouter> } />
           <Route path='/chat' element={<Chat/>} />

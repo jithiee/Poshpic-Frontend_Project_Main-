@@ -53,30 +53,8 @@ const ViewPhotographer = ( ) => {
         dispatch(userProfile());
       }
     }, [authToken, dispatch]);
+
   
-    console.log(userProfileData, '>>>>>>>>>>>>>>>>>>>>>>>>>>>>IIIIIIIIIIIIIIIIIIIII');
-  
-
-
-
-
-
-
-
-
-
-  // const handleFollow = async () => {
-  //   try {
-  //     const response = await axios.post(`http://127.0.0.1:8000//follow/${id}/`);
-  //     setIsFollowing(response.data.msg === "Follow");
-  //   } catch (error) {
-  //     console.error("Error following/unfollowing:", error);
-  //   }
-  // };
-
-
-
-
 
   return (
     <>
